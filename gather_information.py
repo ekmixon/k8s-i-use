@@ -138,7 +138,7 @@ def parse_files(dir, all_data_path):
                 })
 
         giant_json.append(curr)
-    
+
     # write to frontend dir to be picked up by the React app
     # a bit hacky but produces a valid JS data structure
     all_data = os.path.join(all_data_path, "allData.js")
